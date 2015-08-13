@@ -2,7 +2,7 @@ package org.dimigo.inheritance;
 
 /**
  * <pre>
- * org.dimigo.ingeritance
+ * org.dimigo.inheritance
  *    ¤Ó_Triangle
  *
  * 1. °³¿ä:
