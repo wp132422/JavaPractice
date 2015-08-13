@@ -28,6 +28,15 @@ public class Rectangle extends Figure {
 		this.width = width;
 		this.height = height;
 	}
+	protected void printCenter()
+	{
+		System.out.println("("+centerX+","+centerY+")");
+				
+	}
+	protected void moveFigure(int x,int y){
+		centerX += x;
+		centerY += y;
+	}
 	
 	protected double calcArea()
 	{

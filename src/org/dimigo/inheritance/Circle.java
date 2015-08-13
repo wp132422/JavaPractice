@@ -25,7 +25,15 @@ public class Circle extends Figure {
 		super(centerX, centerY);
 		this.radius = radius;
 	}
-	
+	protected void printCenter()
+	{
+		System.out.println("("+centerX+","+centerY+")");
+				
+	}
+	protected void moveFigure(int x,int y){
+		centerX += x;
+		centerY += y;
+	}
 	protected double calcArea()
 	{
 		
@@ -33,4 +41,5 @@ public class Circle extends Figure {
 		double i = Double.valueOf(String.format("%.1f",Math.PI * radius * radius)).doubleValue(); 
 		return i;
 	}
+	
 }

@@ -13,8 +13,8 @@ package org.dimigo.inheritance;
  * @version		: 1.0
  */
 public class Figure {
-	private int centerX;
-	private int centerY;
+	protected int centerX;
+	protected int centerY;
 	
 	public Figure()
 	{
@@ -25,7 +25,15 @@ public class Figure {
 		this.centerX = centerX;
 		this.centerY = centerY;
 	}
-	
+	protected void printCenter()
+	{
+		System.out.println("("+centerX+","+centerY+")");
+				
+	}
+	protected void moveFigure(int x,int y){
+		centerX = x;
+		centerY = y;
+	}
 	protected double calcArea()
 	{
 		return 0.0;
