@@ -11,7 +11,7 @@ package org.dimigo.inheritance;
  * 
  * @author		: À±±â¼®
  * @version		: 1.0
- */
+ */  
 public class Circle extends Figure {
 	private int radius;
 	
